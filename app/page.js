@@ -8,7 +8,6 @@ export default function Home() {
       <TopicList />
       <TopicList />
       <TopicList />
-      <TopicList />
     </>
   );
 }
