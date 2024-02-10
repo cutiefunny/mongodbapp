@@ -4,7 +4,7 @@ import EditTopicForm from "@/components/EditTopicForm"
 import { useState } from "react";
 
 const getTopicById = async (id) => {
-    const response = await fetch("http://mongodbapp.vercel.app/api/topic?id=" + id);
+    const response = await fetch("https://mongodbapp.vercel.app/api/topic?id=" + id);
     const data = await response.json();
     return data;
 };

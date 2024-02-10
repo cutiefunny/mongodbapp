@@ -12,7 +12,7 @@ export default function RemoveBtn({id}){
 
             if(!confirm) return;
 
-            const response = await fetch("http://mongodbapp.vercel.app/api/topics?id=" + id, {
+            const response = await fetch("https://mongodbapp.vercel.app/api/topics?id=" + id, {
                 method: "DELETE",
                 headers: {
                     "Content-Type": "application/json"

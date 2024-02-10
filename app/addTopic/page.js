@@ -10,7 +10,7 @@ export default function AddTopic() {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        const response = await fetch("http://mongodbapp.vercel.app/api/topics", {
+        const response = await fetch("https://mongodbapp.vercel.app/api/topics", {
             method: "POST",
             body: JSON.stringify({title, description}),
             headers: {

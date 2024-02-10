@@ -13,7 +13,7 @@ export default function EditTopicForm(param) {
         event.preventDefault();
 
         try{
-            const response = await fetch("http://mongodbapp.vercel.app/api/topic", {
+            const response = await fetch("https://mongodbapp.vercel.app/api/topic", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
