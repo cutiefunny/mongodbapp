@@ -9,7 +9,7 @@ const TopicSchema = new Schema({
     createdAt: {
         type: Date,
         default: Date.now,
-    },
+    }
 });
 
 const Topic = mongoose.models.Topic || mongoose.model("Topic", TopicSchema);
