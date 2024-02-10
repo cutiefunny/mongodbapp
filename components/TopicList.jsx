@@ -4,7 +4,7 @@ import { HiPencilAlt } from "react-icons/hi";
 
 const getTopics = async () => {
     try{
-        const response = await fetch("http://localhost:3000/api/topics",{cache: "no-store"});
+        const response = await fetch("http://mongodbapp.vercel.app/api/topics",{cache: "no-store"});
 
         if(!response.ok){
             throw new Error(response.statusText);
