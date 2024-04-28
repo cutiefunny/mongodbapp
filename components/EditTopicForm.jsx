@@ -50,7 +50,7 @@ export default function EditTopicForm(param) {
             placeholder="Topic Title"
         />
 
-        <input
+        <textarea
             onChange={(event) => setNewDescription(event.target.value)}
             value={newDescription}
             className="border border-slate-500 px-8 py-2" 

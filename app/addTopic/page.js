@@ -38,7 +38,7 @@ export default function AddTopic() {
             placeholder="Topic Title"
         />
 
-        <input
+        <textarea
             onChange={(event) => setDescription(event.target.value)}
             value={description}
             className="border border-slate-500 px-8 py-2" 
